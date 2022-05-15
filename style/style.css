@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 700px;
+    background: url(../images/header_bg.png) no-repeat center/cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+}
+.logo {
+    background: black;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: 500ms;
+}
+.logo:hover {
+    background: red;
+    color: black;
+} 
+
+.type {
+    color: white;
+    font-size: 30px;
+    font-family: arial;
+}
+.type:hover {
+    border-bottom: 2px solid red;
+}
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: arial;
+    margin-bottom: 50px;
+    
+}
+.button {
+    background: black;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-family: arial;
+    transition: 500ms;
+    display: block;
+    border-radius: 30px;
+}
+.button:hover {
+    background: green;
+    color: black;  
+}
+.header-box {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: arial;
+} 
+.main-about p {
+    font-size: 18px;
+    font-family: arial;
+    text-align: center;
+    margin: 40px 0;
+}
+.title {
+    text-align: center;
+}
+.item {
+    width: 350px;
+    border: 2px solid black;   
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.item:hover {
+    border: 2px solid red;
+    cursor: grab;   
+}
+
+.item img {
+    width: 100%;    
+}
+
+.item h3 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: arial;
+    margin-bottom: 20px;
+}
+
+.item p {
+   font-family: arial;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.link {
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: arial;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+.link:hover {
+    background: green;
+    color: black;
+}
+
+.main-box {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+footer {
+    background: black;
+    padding: 40px 0;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+}
+.footer-box a {
+    margin: 0 20px;
+    transition: 500ms;
+}
+.footer-box a:hover {
+    transform: rotate(360deg) scale(1.5)
+}
+.text {
+    color: white;
+    font-size: 22px;
+    font-family: arial;
+    text-align: center;
+    margin-top: 30px;
+}
+.text span {
+    text-transform: uppercase;
+    color: green;
+    font-size: 26px;
+}
